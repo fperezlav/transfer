@@ -1,0 +1,2829 @@
+Date: Wed, 28 May 2025 08:07:26 +0200 (CEST)
+Message-ID: <220622822.23037.1748412446575@XCCBCO1P>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_23036_177075305.1748412446575"
+
+------=_Part_23036_177075305.1748412446575
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>20250527 HDEV-529105 [New APP] Cuentas - Justificante Transferen=
+cia Temporal - Papyrus</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>20250527 HDEV-529105 [New APP] Cuentas - Justificante Transferencia=
+ Temporal - Papyrus</h1>
+    <div class=3D"Section1">
+        <p class=3D"auto-cursor-target" style=3D"text-align: right;">planti=
+lla solicitud excepci=C3=B3n version 3.4 <time datetime=3D"2025-04-24" clas=
+s=3D"date-past">24 abr 2025</time>&nbsp;&nbsp;</p>
+<p><br></p>
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<p class=3D"title conf-macro-render">=C2=BFQu=C3=A9 debe cumplir el HDEV pa=
+ra que la solicitud de excecpi=C3=B3n se apruebe?</p><span class=3D"aui-ico=
+n aui-icon-small aui-iconfont-error confluence-information-macro-icon"></sp=
+an>
+<div class=3D"confluence-information-macro-body">
+<p>Esto es <u><strong>extremadamente importante</strong></u>:</p>
+<p>Si presentamos una solicitud de excepci=C3=B3n para a=C3=B1adir scope a =
+una release, y la presentamos despu=C3=A9s de la fecha del QGn y antes de l=
+a fecha del QGn+1,</p>
+<p>el HDEV debe cumplir todos los requerimientos que se piden en los qualit=
+y gates QG3 .. QGn ambos inclusive.</p>
+<p><strong><span style=3D"color: rgb(255,102,0);">&gt;&gt;&gt;<u> Si el HDE=
+V no cumple estos requerimientos, no es necesario presentar la solicitud de=
+ excepci=C3=B3n, pues no ser=C3=A1 aprobada.</u> &lt;&lt;&lt;</span></stron=
+g></p>
+<p>No se pide que el HDEV cumpla los requerimientos del QGn+1, a no ser que=
+ la fecha del QGn+1 est=C3=A9 ya muy cercana.</p>
+<p><br></p>
+<p><span style=3D"color: rgb(51,102,255);"><strong>Detalle de los requerimi=
+entos que se les piden a las =C3=A9picas y SCRs en cada quality gate se pue=
+den consultar clicando en el + aqu=C3=AD debajo</strong></span></p>
+<div class=3D"rwui_expandable_item ">
+<a class=3D"rwui_expandable_item_title rwui_expand" onclick=3D"RWUI.toggleE=
+xpandItem(this, event);" id=3D"rwui_expand-DetallerequerimientosporQG" data=
+-hash=3D"expand-DetallerequerimientosporQG">
+<div class=3D"rwui_item_icon rw_external_icon_plus"></div> Detalle requerim=
+ientos por QG </a>
+<div class=3D"rwui_expandable_item_body rwui_body">
+<p></p>
+<div class=3D"panel" style=3D"border-width: 1px;">
+<div class=3D"panelHeader" style=3D"border-bottom-width: 1px;">
+<b>03_Informaci=C3=B3n de los requerimientos por Quality Gates</b>
+</div>
+<div class=3D"panelContent">
+<br>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 99.=
+0274%;">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 9.51827%;">
+<col class=3D"" style=3D"width: 18.1771%;">
+<col class=3D"" style=3D"width: 17.5629%;">
+<col class=3D"" style=3D"width: 18.055%;">
+<col class=3D"" style=3D"width: 18.5444%;">
+<col class=3D"" style=3D"width: 18.1195%;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: center;" class=3D"confluenceTh">
+<p><br></p></th>
+<th style=3D"text-align: center;" class=3D"confluenceTh">
+<p><span style=3D"color: rgb(0,0,0);">QG3 - Scope Interlock</span></p>
+<p>Cierre alcance</p>
+<p><br></p></th>
+<th style=3D"text-align: center;" class=3D"confluenceTh">
+<p><span style=3D"color: rgb(0,0,0);">QG4 - Pruebas ST/SIT</span></p>
+<p><span style=3D"color: rgb(0,0,0);">Fase de entrega del desarrollo y prue=
+bas ST/SIT en el entorno de ACC</span></p></th>
+<th style=3D"text-align: center;" class=3D"confluenceTh">
+<p><span style=3D"color: rgb(0,0,0);">QG5 - Pruebas QAT</span></p>
+<p>Fase de pruebas QAT de proyecto en el entorno de ACC</p></th>
+<th style=3D"text-align: center;" class=3D"confluenceTh">
+<p><span style=3D"color: rgb(0,0,0);"><strong>QG5.1 / QG6</strong></span></=
+p>
+<p>Fase de pruebas UAT de proyecto y regresi=C3=B3n en el entorno de UAT</p=
+></th>
+<th colspan=3D"1" class=3D"confluenceTh">
+<p style=3D"text-align: center;"><span style=3D"color: rgb(0,0,0);">QG8</sp=
+an></p>
+<p style=3D"text-align: center;"><span style=3D"color: rgb(0,51,102);">Cier=
+re pruebas piloto </span></p>
+<p style=3D"text-align: center;"><span style=3D"color: rgb(0,51,102);">(ent=
+orno 1L)</span></p></th>
+</tr>
+<tr class=3D"">
+<th class=3D"confluenceTh">
+<p style=3D"text-align: center;">Descripci=C3=B3n</p></th>
+<td class=3D"confluenceTd">
+<p style=3D"text-align: center;">Cierre oficial del alcance de la release.<=
+/p></td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">
+<p>Cierre de la fase de desarrollo.</p></td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">
+<p>Cierre de la fase de pruebas de QAT.</p></td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">
+<p>Cierre de la fase de pruebas de Regresi=C3=B3n</p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr class=3D"">
+<th class=3D"confluenceTh">
+<p style=3D"text-align: center;">Acciones necesarias para cumplir con el QG=
+</p></th>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><strong>Release solicitada:</strong></p>
+<ul>
+<li>:warning: Release Propuesta TI =3D T_XX.YY.1</li>
+</ul>
+<p><br></p>
+<p><strong>Estado:</strong></p>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">:warning: Estado &gt;=3D TO DO</span=
+><br><span style=3D"color: rgb(0,0,0);">Es importante que la tarea no est=
+=C3=A9 pendiente de aprobaci=C3=B3n u otros estados dependientes de otros e=
+quipos.</span></li>
+</ul>
+<p><span style=3D"color: rgb(0,51,102);">&nbsp;</span></p>
+<p><strong>Definici=C3=B3n t=C3=A9cnica:</strong></p>
+<ul>
+<li>:warning:<span style=3D"color: rgb(0,0,0);"> Las =C3=A9picas deben tene=
+r una tarea de definici=C3=B3n SD closed,done.</span></li>
+<li><span style=3D"color: rgb(0,0,0);">:warning:Los SCRs tienen la etiqueta=
+ SD_APPROVED o bien la etiqueta SD_QG3_EXCEPTION</span></li>
+</ul>
+<p><span style=3D"color: rgb(0,0,0);">&nbsp;</span></p>
+<p><strong><span style=3D"color: rgb(0,0,0);">Dise=C3=B1o funcional:</span>=
+</strong></p>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">:warning: Tener adjunto el DF con la=
+ siguiente nomenclatura "DF_Dise=C3=B1o Funcional_"+titulo del proyecto+".p=
+df"</span></li>
+</ul>
+<p><span style=3D"color: rgb(0,0,0);">&nbsp;</span></p>
+<p><strong><span style=3D"color: rgb(0,0,0);">Dependencias informadas:</spa=
+n></strong></p>
+<ul>
+<li>:warning: <span style=3D"color: rgb(0,0,0);">Tener informadas las etiqu=
+etas:</span></li>
+</ul>
+<p style=3D"margin-left: 30.0px;"><span style=3D"color: rgb(0,0,0);">DEPS_P=
+AP o NO_DEPS_PAP (PM)</span></p>
+<p style=3D"margin-left: 30.0px;"><span style=3D"color: rgb(0,0,0);">En cas=
+o de tener Dependencias, rellenar la tabla de dependencias de la release <s=
+pan style=3D"color: rgb(34,34,34);">05_Dependencias PaP_T_XX.YY.1</span></s=
+pan></p>
+<p><br></p>
+<p><strong>Plataforma de desarrollo:</strong></p>
+<ul>
+<li>:warning: <span style=3D"color: rgb(0,0,0);">Tener informadas las etiqu=
+etas seg=C3=BAn plataforma de desarrollo:</span></li>
+</ul>
+<p style=3D"margin-left: 30.0px;"><span style=3D"color: rgb(0,0,0);">BSO (W=
+eb responsive)</span></p>
+<p style=3D"margin-left: 30.0px;"><span style=3D"color: rgb(0,0,0);">BSM (A=
+plicaci=C3=B3n Nativa)<br></span></p>
+<p style=3D"margin-left: 30.0px;"><span style=3D"color: rgb(0,0,0);">U otra=
+s plataformas (HOST, OWCS...)</span></p>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"content-wrapper">
+<p><strong>Pruebas de System/Integration Test (ST/SIT):</strong></p>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Plan de pruebas de <strong>ST/SIT </=
+strong>ejecutado al 100%, passed &gt;=3D90% y con evidencias:</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);"><em>0 defectos Bloqueantes </em></sp=
+an></li>
+<li><span style=3D"color: rgb(0,0,0);"><em>0 defectos Muy altos </em></span=
+></li>
+<li><span style=3D"color: rgb(0,0,0);"><em>0 defectos Altos </em></span></l=
+i>
+<li><span style=3D"color: rgb(0,0,0);"><em>&lt;=3D 5 defectos Medios </em><=
+/span></li>
+<li><span style=3D"color: rgb(0,0,0);"><em>&lt;=3D10 defectos Bajos </em></=
+span></li>
+</ul></li>
+</ul>
+<p><strong><u>&nbsp;</u></strong></p>
+<p><strong>Estado:</strong></p>
+</div>
+</div>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">:warning: Estado &gt;=3D QAT</span><=
+span style=3D"color: rgb(0,51,102);"><br></span></li>
+</ul>
+<p><br></p>
+<p><strong><span style=3D"color: rgb(0,0,0);">Impacto en la matriz de regre=
+si=C3=B3n:</span></strong></p>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">:warning: </span>Se ha abierto un SS=
+M en el HDEV. El impacto en la matriz de regresi=C3=B3n est=C3=A1 identific=
+ado y documentado. El PO o el responsable de Operaciones para esta =C3=A9pi=
+ca o SCR ha aprobado el impacto en la matriz de regresi=C3=B3n. Y como cons=
+ecuencia de todo lo anterior es SSM se ha avanzado a un estado &gt;=3D ACCE=
+PTANCE.</li>
+</ul>
+<div class=3D"content-wrapper">
+<p><br></p>
+<p><span style=3D"color: rgb(0,0,0);"><strong>Informaci=C3=B3n t=C3=A9cnica=
+:</strong></span></p>
+<ul>
+<li>
+<p><span style=3D"color: rgb(0,51,102);">:warning: <span style=3D"color: rg=
+b(0,0,0);">URL en la T</span></span><span style=3D"color: rgb(0,0,0);">abla=
+ de repos de la ejecuci=C3=B3n de Sonar "passed" desde la pipeline feature =
+contra la rama del proyecto.</span></p>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Para repositorios que no tengan mult=
+ibranch activado, colgar en el JIRA una evidencia est=C3=A1tica en formato =
+PDF o pantallazo.</span></li>
+</ul></li>
+</ul>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><strong>Pruebas de Quality Assurance Test (QAT):</strong></p>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Plan de pruebas de <strong>QAT </str=
+ong>ejecutado al 100%, passed &gt;=3D90% y con evidencias:</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);"><em>0 defectos Bloqueantes </em></sp=
+an></li>
+<li><span style=3D"color: rgb(0,0,0);"><em>0 defectos Muy altos </em></span=
+></li>
+<li><span style=3D"color: rgb(0,0,0);"><em>0 defectos Altos </em></span></l=
+i>
+<li><span style=3D"color: rgb(0,0,0);"><em>&lt;=3D 5 defectos Medios </em><=
+/span></li>
+<li><span style=3D"color: rgb(0,0,0);"><em>&lt;=3D10 defectos Bajos </em></=
+span></li>
+</ul></li>
+</ul>
+<p><br></p>
+<p><strong>Estado:</strong></p>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">:warning: Estado &gt;=3D MERGE</span=
+></li>
+</ul>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">:warning:&nbsp;Estado INC &gt;=3D &n=
+bsp;IN REGRESSION</span></li>
+</ul>
+<p><strong>&nbsp;</strong></p>
+<p><strong>=C3=81reas validadoras:</strong></p>
+<p><span style=3D"color: rgb(0,0,0);">:warning:Tareas generadas en las <str=
+ong>=C3=A9picas</strong>:</span></p>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);"><strong>Seguridad</strong> - Si no r=
+equiere Seguridad, informar etiqueta NO_SEGURIDAD </span></li>
+<li><span style=3D"color: rgb(0,0,0);"><strong>DAC </strong>- Si no requier=
+e de DAC, informar etiqueta NO_DAC</span></li>
+<li><span style=3D"color: rgb(0,0,0);"><strong>QA</strong> - Si no requiere=
+ de QA, informar etiqueta NO_QA </span></li>
+<li><span style=3D"color: rgb(0,0,0);"><strong>TK</strong> - <strong>Tarea<=
+/strong><u> de TK UAT</u> done,closed.</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Tarea de Validaci=C3=B3n de Certific=
+aci=C3=B3n, done o closed. La tarea la crea y completa el equipo de Certifi=
+caci=C3=B3n (unidad validadora OCE, tipo QAT o UAT). Aplica cuando el HDEV =
+es certificable (etiqueta OCE_CERTIFICABLE) y ha pasado la certificaci=C3=
+=B3n.</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Etiqueta<strong> Validada ACC</stron=
+g>- EL PM indica que est=C3=A1 todo Ok para integrarse</span></li>
+</ul>
+<p><span style=3D"color: rgb(0,0,0);">:warning:Etiquetas en <strong>SCRs:</=
+strong></span></p>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);"><strong>Seguridad</strong> - NO_SEGU=
+RIDAD o OK_SEGURIDAD</span><span style=3D"color: rgb(0,0,0);"><strong><br><=
+/strong></span></li>
+<li><span style=3D"color: rgb(0,0,0);"><strong>DAC</strong> -NO_DAC o OK_DA=
+C_ACC</span></li>
+<li><span style=3D"color: rgb(0,0,0);"><strong>QA</strong> -<strong> </stro=
+ng>NO_QA o OK_QA_ACC</span><span style=3D"color: rgb(0,0,0);"><br></span></=
+li>
+<li><span style=3D"color: rgb(0,0,0);"><strong>SD </strong>- <strong>Tarea<=
+/strong><u> de SD UAT</u> done,closed.</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Tarea de Validaci=C3=B3n de Certific=
+aci=C3=B3n, done o closed. La tarea la crea y completa el equipo de Certifi=
+caci=C3=B3n (unidad validadora OCE, tipo QAT o UAT). Aplica cuando el HDEV =
+es certificable (etiqueta OCE_CERTIFICABLE) y ha pasado la certificaci=C3=
+=B3n.</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Etiqueta<strong> Validada ACC</stron=
+g>- EL PM indica que est=C3=A1 todo Ok para integrarse</span></li>
+</ul>
+<p><strong>Informaci=C3=B3n t=C3=A9cnica:</strong></p>
+<ul>
+<li>
+<p><span style=3D"color: rgb(0,0,0);">:warning: <a href=3D"/display/RMC/Tem=
+plates+tabla+de+repos+v2">Panel de repos actualizado con las PRs en el camp=
+o "Informaci=C3=B3n Adicional" para Epicas y SCR </a>o en el campo "Descrip=
+ci=C3=B3n" en el caso de INC.<br></span></p>
+<ul>
+<li>
+<p><span style=3D"color: rgb(0,0,0);">Si el proyecto no modifica c=C3=B3dig=
+o en Bitbucket, poner etiqueta:</span></p>
+<ul>
+<li>
+<p><span style=3D"color: rgb(0,0,0);">NO_SOURCE_CODE si no se toca c=C3=B3d=
+igo propio de canales</span></p></li>
+<li>
+<p><span style=3D"color: rgb(0,0,0);">SOLO_OWCS si solo es owcs<br></span><=
+/p></li>
+<li>
+<p><span style=3D"color: rgb(0,0,0);">SOLO_P4 si solo se toca P4</span></p>=
+</li>
+</ul></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,0,0);">:warning: Evidencias de la <a class=
+=3D"external-link" href=3D"http://confluence.bancsabadell.com/display/SB/Va=
+lidar+QG3" rel=3D"nofollow">ejecuci=C3=B3n correcta de Sonar</a>:</span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Poner en la tabla de repos la URL de=
+ la ejecuci=C3=B3n de Sonar que ya finalizado "passed" desde la pipeline fe=
+ature contra la rama del proyecto.&nbsp;</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Para repositorios que no tengan mult=
+ibranch activado, colgar en el JIRA una evidencia est=C3=A1tica en formato =
+PDF o pantallazo.</span></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,0,0);">:warning: Etiquetas [quien la pone]<=
+u><br class=3D"_mce_tagged_br"></u></span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">PR_APPROVED (DevTeam) =E2=86=92 Solo=
+ se puede poner si la PR esta aprobada y la ejecuci=C3=B3n de la feature so=
+bre la rama origen ha finalizado correctamente en Sonar</span></li>
+</ul></li>
+</ul>
+<p><br></p>
+<p><span style=3D"color: rgb(0,0,0);"><strong>Informaci=C3=B3n adicional:</=
+strong></span></p>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">:warning:<a href=3D"/display/RMC/Tem=
+plates+tabla+de+repos+v2">Panel de =E2=80=9CDependencias PaP=E2=80=9D actua=
+lizado si se requiere tras la revisi=C3=B3n desde el QG3 y/o modificar etiq=
+ueta</a></span><br>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">DEPS_PAP o NO_DEPS_PAP</span></li>
+</ul></li>
+</ul>
+<p><span style=3D"color: rgb(0,0,0);">&nbsp;</span></p>
+<p><br></p>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><strong>Pruebas de User Assurance Test (UAT):</strong></p>
+<ul>
+<li>Plan de pruebas de <strong>UAT y Regresi=C3=B3n</strong> ejecutado al 1=
+00%, passed &gt;=3D 90% y con evidencias:=20
+<ul>
+<li><em>0 defectos Bloqueantes </em></li>
+<li><span style=3D"color: rgb(0,0,0);"><em>0 defectos Muy altos </em></span=
+></li>
+<li><span style=3D"color: rgb(0,0,0);"><em>0 defectos Altos </em></span></l=
+i>
+<li><span style=3D"color: rgb(0,0,0);"><em>&lt;=3D 5 defectos Medios </em><=
+/span></li>
+<li><span style=3D"color: rgb(0,0,0);"><em>&lt;=3D 10 defectos Bajos </em><=
+/span></li>
+</ul></li>
+</ul>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Estado:</strong></p>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">:warning: Estado &gt;=3D PILOTO</spa=
+n></li>
+</ul>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">:warning: Estado INC &gt;=3D PENDING=
+ PROMOTION </span></li>
+</ul>
+<p><strong>&nbsp;</strong></p>
+<p><strong>=C3=81reas validadoras:</strong></p>
+<p><span style=3D"color: rgb(0,0,0);">:warning:Tareas generadas en las <str=
+ong>=C3=A9picas</strong>:</span></p>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);"><strong>Seguridad</strong> - Si no r=
+equiere Seguridad, informar etiqueta NO_SEGURIDAD </span></li>
+<li><span style=3D"color: rgb(0,0,0);"><strong>DAC </strong>- Si no requier=
+e de DAC, informar etiqueta NO_DAC</span></li>
+<li><span style=3D"color: rgb(0,0,0);"><strong>QA</strong> - Si no requiere=
+ de QA, informar etiqueta NO_QA </span></li>
+<li><span style=3D"color: rgb(0,0,0);">Etiqueta<strong> Validada UAT </stro=
+ng>- EL PM indica que est=C3=A1 todo Ok.</span><br><span style=3D"color: rg=
+b(0,0,0);"><br></span></li>
+</ul>
+<p>:warning:<span style=3D"color: rgb(0,0,0);">Etiquetas en </span><strong>=
+SCRs:</strong></p>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);"><strong>Seguridad</strong> - NO_SEGU=
+RIDAD o OK_SEGURIDAD</span><span style=3D"color: rgb(0,0,0);"><strong><br><=
+/strong></span></li>
+<li><span style=3D"color: rgb(0,0,0);"><strong>DAC</strong> - NO_DAC o OK_D=
+AC_UAT</span></li>
+<li><span style=3D"color: rgb(0,0,0);"><strong>QA</strong> -<strong> </stro=
+ng>NO_QA o OK_QA_UAT</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Etiqueta<strong> Validada UAT </stro=
+ng>- EL PM indica que est=C3=A1 todo Ok.</span></li>
+</ul>
+<p><span style=3D"color: rgb(0,0,0);">&nbsp;</span></p>
+<p><span style=3D"color: rgb(0,0,0);">&nbsp;</span></p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<p><strong>Pruebas Final User Acceptance Test (FAT)</strong></p>
+<ul>
+<li>Validaci=C3=B3n/monitorizaci=C3=B3n de proyecto en <strong>Piloto</stro=
+ng>:=20
+<ul>
+<li><em>0 defectos Bloqueantes </em></li>
+<li><span style=3D"color: rgb(0,0,0);"><em>0 defectos Muy altos </em></span=
+></li>
+<li><span style=3D"color: rgb(0,0,0);"><em>0 defectos Altos </em></span></l=
+i>
+<li><span style=3D"color: rgb(0,0,0);"><em>&lt;=3D 5 defectos Medios </em><=
+/span></li>
+<li><span style=3D"color: rgb(0,0,0);"><em>&lt;=3D 10 defectos Bajos </em><=
+/span></li>
+</ul></li>
+</ul>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Estado:</strong></p>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">:warning: Estado =C3=89pica &gt;=3D =
+IN PROD</span></li>
+</ul>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">:warning: Estado SCR &gt;=3D IN PROD=
+ / EN PRODUCCION</span></li>
+<li><span style=3D"color: rgb(0,0,0);">:warning: Estado INC &gt;=3D PDTE.IO=
+P PRO<br></span></li>
+</ul>
+<p><br></p>
+<p><span style=3D"color: rgb(0,0,0);"><strong>Impacto en la matriz de regre=
+si=C3=B3n:</strong></span></p>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">:warning: En caso de que haya impact=
+o, el SSM llevar=C3=A1 las&nbsp;etiquetas OK_Regresion y REVISADO_AUTO</spa=
+n></li>
+<li><span style=3D"color: rgb(0,0,0);">Estado SSM =3D Closed</span></li>
+</ul></td>
+</tr>
+<tr class=3D"">
+<th class=3D"confluenceTh">
+<p>Proyectos JIRA a los cuales aplica</p></th>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">HDEV (EPICA)<=
+/span> <span class=3D"status-macro aui-lozenge aui-lozenge-current">HDEV (S=
+CR)</span> <span class=3D"status-macro aui-lozenge aui-lozenge-error">INC</=
+span><br><br></p>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">HDEV (EPICA)<=
+/span> <span class=3D"status-macro aui-lozenge aui-lozenge-current">HDEV (S=
+CR)</span></p>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">HDEV (EPICA)<=
+/span><span> </span><span class=3D"status-macro aui-lozenge aui-lozenge-cur=
+rent">HDEV (SCR)</span><span> </span><span class=3D"status-macro aui-lozeng=
+e aui-lozenge-error">INC</span></p>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">HDEV (EPICA)<=
+/span><span> </span><span class=3D"status-macro aui-lozenge aui-lozenge-cur=
+rent">HDEV (SCR)</span><span> </span><span class=3D"status-macro aui-lozeng=
+e aui-lozenge-error">INC</span></p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">HDEV (EPICA)<=
+/span><span> </span><span class=3D"status-macro aui-lozenge aui-lozenge-cur=
+rent">HDEV (SCR)</span> <span class=3D"status-macro aui-lozenge aui-lozenge=
+-error">INC</span></p>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class=3D"auto-cursor-target"><em><span style=3D"color: rgb(122,134,154);=
+">:warning:&nbsp;=3D Par=C3=A1metros que se controlan en los filtros de los=
+ QG, aunque el resto de par=C3=A1metros&nbsp;tambi=C3=A9n se deben cumplir =
+para evitar posibles bloqueos por parte de certificaci=C3=B3n.</span></em><=
+/p>
+<p><br></p>
+</div>
+</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+<div class=3D"rwui_expandable_item ">
+<a class=3D"rwui_expandable_item_title rwui_expand" onclick=3D"RWUI.toggleE=
+xpandItem(this, event);" id=3D"rwui_expand-ClicaenelparaverOTRASINSTRUCCION=
+ESIMPORTANTES" data-hash=3D"expand-ClicaenelparaverOTRASINSTRUCCIONESIMPORT=
+ANTES">
+<div class=3D"rwui_item_icon rw_external_icon_plus"></div> Clica en el + pa=
+ra ver OTRAS INSTRUCCIONES IMPORTANTES </a>
+<div class=3D"rwui_expandable_item_body rwui_body">
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<p class=3D"title conf-macro-render">No edites el template; crea una copia =
+de esta p=C3=A1gina</p><span class=3D"aui-icon aui-icon-small aui-iconfont-=
+error confluence-information-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>Por favor, no edites esta p=C3=A1gina, porque se trata de un template. E=
+n su lugar, copia esta p=C3=A1gina template, y s=C3=A1lvala en la carpeta "=
+01_Solicitud de excepciones - T_2x.y.z" de la release a la que pides excepc=
+i=C3=B3n, d=C3=A1ndole el nombre "<em>YYYYMMDD </em>HDEV<em>-nnnnnn T<em>it=
+uloHDEV"&nbsp;</em></em><span style=3D"color: rgb(51,51,51);">donde</span><=
+em><em>&nbsp;YYYYMMDD&nbsp;</em></em><span style=3D"color: rgb(51,51,51);">=
+es la fecha de solicitud (hoy), <em>HDEV</em></span><em><em>-nnnnnn</em><sp=
+an style=3D"color: rgb(51,51,51);">&nbsp;</span></em><span style=3D"color: =
+rgb(51,51,51);">es el id de la =C3=A9pica o SCR en Halley DEV y</span><em><=
+span style=3D"color: rgb(51,51,51);">&nbsp;</span><em>T=C3=ADtuloHDEV&nbsp;=
+</em></em><span style=3D"color: rgb(51,51,51);">es el campo Summary del HDE=
+V.</span></p>
+<p style=3D"text-align: center;"><span style=3D"color: rgb(51,51,51);"><spa=
+n class=3D"confluence-embedded-file-wrapper confluence-embedded-manual-size=
+"><img class=3D"confluence-embedded-image" draggable=3D"false" height=3D"32=
+0" src=3D"dbb7a09f5ee653eeb947b95c926d73ef" data-image-src=3D"/download/att=
+achments/181090588/CopiarPagina4.jpg?version=3D1&amp;modificationDate=3D174=
+8369006147&amp;api=3Dv2" data-unresolved-comment-count=3D"0" data-linked-re=
+source-id=3D"181087411" data-linked-resource-version=3D"1" data-linked-reso=
+urce-type=3D"attachment" data-linked-resource-default-alias=3D"CopiarPagina=
+4.jpg" data-base-url=3D"https://halleyconf.bancsabadell.com" data-linked-re=
+source-content-type=3D"image/jpeg" data-linked-resource-container-id=3D"181=
+090588" data-linked-resource-container-version=3D"2" alt=3D"" width=3D"468"=
+></span><br></span></p>
+<p>Despu=C3=A9s contin=C3=BAa leyendo esta secci=C3=B3n de <a href=3D"#id-2=
+0250527HDEV529105[NewAPP]CuentasJustificanteTransferenciaTemporalPapyrus-me=
+nsajesimportantes">MENSAJES IMPORTANTES</a> y edita la copia que has creado=
+.</p>
+<p>No copies la p=C3=A1gina de una solicitud anterior, pues se corre el rie=
+sgo de no estar usando la =C3=BAltima versi=C3=B3n del template.</p>
+<p>=C2=A1Gracias!</p>
+</div>
+</div>
+<p class=3D"auto-cursor-target"><span class=3D"confluence-anchor-link" id=
+=3D"id-20250527HDEV529105[NewAPP]CuentasJustificanteTransferenciaTemporalPa=
+pyrus-mensajesimportantes"></span></p>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<p class=3D"title conf-macro-render">Cantidad de excepciones</p><span class=
+=3D"aui-icon aui-icon-small aui-iconfont-info confluence-information-macro-=
+icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>Sabadell Digital tiene definido una ciclo de vida del desarrollo de soft=
+ware dividido en fases, con Quality Gates al final de cada fase. Y un proce=
+so de excepciones en el caso de que, por alg=C3=BAn motivo justificado, un =
+proyecto no pueda cumplir exactamente con el proceso tal cual est=C3=A1 def=
+inido.</p>
+<p>Ahora bien, las excepciones deber=C3=ADan ser eso, excepciones: <strong>=
+deber=C3=ADa haber <u>pocas</u> peticiones de excepci=C3=B3n.</strong></p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<p class=3D"title conf-macro-render">Importante rellenar el formulario corr=
+ectamente.</p><span class=3D"aui-icon aui-icon-small aui-iconfont-error con=
+fluence-information-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>Es muy importante documentar la excepci=C3=B3n con toda la informaci=C3=
+=B3n necesaria.</p>
+<p><u>Se trata de indicar toda la informaci=C3=B3n relevante de forma conci=
+sa.</u></p>
+<p>Dif=C3=ADcilmente el equipo de RM Sabadell Digital y CTA aprobar=C3=A1n =
+una excepci=C3=B3n si no entienden, tras leer el formulario, qu=C3=A9 es lo=
+ que est=C3=A1n aprobando (M=C3=A1s concretamente, las secciones del formul=
+ario est=C3=A1n pensadas para <u>entender: 1. necesidad de negocio / impact=
+o si no se acepta la excepci=C3=B3n y 2. si aprobar la excepci=C3=B3n compr=
+omete la calidad del software o aumenta el riesgo de tener futuras incidenc=
+ias en producci=C3=B3n</u>).</p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<p class=3D"title conf-macro-render">Tiempo de respuesta</p><span class=3D"=
+aui-icon aui-icon-small aui-iconfont-info confluence-information-macro-icon=
+"></span>
+<div class=3D"confluence-information-macro-body">
+<p><span>RM Sabadell Digital y CTA intentar=C3=A1n, en la medida de lo posi=
+ble, responder a todas las solicitudes de excepci=C3=B3n en el plazo de 1 d=
+=C3=ADa laborable, <span> siempre y cuando el formulario se haya rellenado =
+correctamente y contenga toda la informaci=C3=B3n necesaria para evaluar la=
+ petici=C3=B3n</span>.</span></p>
+<p><span>La aprobaci=C3=B3n o no aprobaci=C3=B3n de la excepci=C3=B3n se co=
+municar=C3=A1 por correo electr=C3=B3nico.</span></p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-not=
+e">
+<p class=3D"title conf-macro-render">Instrucciones de c=C3=B3mo rellenar el=
+ formulario - ETIQUETAS</p><span class=3D"aui-icon aui-icon-small aui-iconf=
+ont-warning confluence-information-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>En el formulario de solicitud de excepci=C3=B3n usaremos 3 etiquetas (un=
+a a la vez):</p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Etiqueta</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Significado</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Quien pone esta etiqueta</strong></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(255,204,0);"><strong>R=
+M_EXCEPCION_WIP</strong></span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>Work in progress. Indica que=
+ el formulario de solicitud de excepci=C3=B3n est=C3=A1 siendo rellenado, p=
+ero todav=C3=ADa no est=C3=A1 completo.</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">El/la solicitante.</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(255,204,0);"><strong><=
+strong>RM_EXCEPCION_RFA</strong></strong></span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span> Ready for approval. Indica =
+que el formulario de solicitud est=C3=A1 ya rellenado por el </span><span>s=
+olicitante</span><span> y listo para ser evaluado por Release Management Di=
+gital y el CTA</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">El/la solicitante.</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(255,204,0);"><strong>R=
+M_EXCEPCION_RESOLVED</strong></span></td>
+<td colspan=3D"1" class=3D"confluenceTd">Resolved. Indica que la excepci=C3=
+=B3n ya ha sido resuelta. La resoluci=C3=B3n puede ser OK o KO y puede cons=
+ultarse en la propia p=C3=A1gina.</td>
+<td colspan=3D"1" class=3D"confluenceTd">Release Management.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class=3D"auto-cursor-target">Nota: Las etiquetas se informan en la p=C3=
+=A1gina en modo lectura, al final de la p=C3=A1gina, antes del apartado de =
+comentarios.</p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-not=
+e">
+<p class=3D"title conf-macro-render">Instrucciones sobre c=C3=B3mo rellenar=
+ el formulario</p><span class=3D"aui-icon aui-icon-small aui-iconfont-warni=
+ng confluence-information-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>La plantilla de la p=C3=A1gina de excepci=C3=B3n, ya contiene la etiquet=
+a <span style=3D"color: rgb(255,204,0);"><strong>RM_EXCEPCION_WIP</strong><=
+/span>.</p>
+<p><u>La plantilla del formulario contiene textos en <em>letra it=C3=A1lica=
+. </em>Estos textos son o bien ejemplos (en este caso inician con "<em>ej."=
+</em>), o bien instrucciones breves, o bien indicadores de formato.</u> <u>=
+<strong>En tu solicitud de excepci=C3=B3n debes eliminar este texto y subst=
+ituirlo por tu propio texto, en letra normal (no it=C3=A1lica)</strong></u>=
+.</p>
+<p><span>En caso de dudas acerca de la informaci=C3=B3n que debe contener e=
+l formulario y c=C3=B3mo rellenarlo, puedes contactar con el equipo de Rele=
+ase Management de Sabadell Digital (<a class=3D"external-link" href=3D"mail=
+to:ReleaseManagement@bancsabadell.com" rel=3D"nofollow">ReleaseManagement@b=
+ancsabadell.com</a>) </span></p>
+<p>Nota adicional: Al final de todo de la p=C3=A1gina existe un campo para =
+comentarios que se puede usar para:</p>
+<ul style=3D"list-style-type: square;">
+<li>Preguntar/clarificar alguna cosa =E2=86=92 Al final de cualquier conver=
+saci=C3=B3n, la informaci=C3=B3n completa y relevante debe quedar recogida =
+en la secci=C3=B3n que aplique <span> [1] a [7]</span>, no en comentarios</=
+li>
+<li>A=C3=B1adir ficheros adjuntos de evidencias de alg=C3=BAn tema que cons=
+ider=C3=A9is relevante para la resoluci=C3=B3n de la excepci=C3=B3n (por ej=
+emplo meeting minutes de una reuni=C3=B3n que hay=C3=A1is tenido con el equ=
+ipo de test donde se ha acordado qu=C3=A9 tests aplican).</li>
+</ul>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<p class=3D"title conf-macro-render">Qu=C3=A9 informaci=C3=B3n b=C3=A1sica =
+se espera encontrar en la solicitud</p><span class=3D"aui-icon aui-icon-sma=
+ll aui-iconfont-approve confluence-information-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><br></p>
+<p>En peticiones de <u>a=C3=B1adir alcance a una Release</u>, se espera que=
+ el formulario explique como m=C3=ADnimo una justificaci=C3=B3n de negocio,=
+ impacto si no se acepta la excepci=C3=B3n, y un plan de acci=C3=B3n cre=C3=
+=ADble de como acomodar las actividades de desarrollo y pruebas de los dife=
+rentes equipos al calendario de la Release. La viabilidad de este plan debe=
+ venir confirmado por un responsable de cada equipo involucrado (Desarrollo=
+, Testing, NFT, Seguridad) y debe garantizar que se mantienen los requisito=
+s de calidad y los par=C3=A1metros de tolerancia al riesgo definidos por Sa=
+badell Digital.</p>
+<p><br></p>
+<p>En peticiones de <u>quitar alcance de una Release</u>, se espera que el =
+formulario explique como m=C3=ADnimo una justificaci=C3=B3n del por qu=C3=
+=A9 se quiere quitar del alcance. Pero tambi=C3=A9n se espera que se indiqu=
+e el posible impacto en el cliente y en otras =C3=A9picas o SCRs que pudier=
+an depender de lo que se retira de la Release.</p>
+<p><br></p>
+<p><span style=3D"color: rgb(0,0,0);">En las peticiones de <u>excepci=C3=B3=
+n de solicitud de despliegue previo</u> lo que se solicita es un despliegue=
+ adelantado en algunos QGs de la Release. En este caso, estas peticiones de=
+ben contener la informaci=C3=B3n de la justificaci=C3=B3n del por qu=C3=A9 =
+se desea realizar este despliegue. La viabilidad de este plan de acci=C3=B3=
+n debe venir confirmada por un responsable de cada equipo involucrado. Es i=
+mportante identificar las posibles dependencias o impactos que puede provoc=
+ar este despliegue previo.</span></p>
+<p><span style=3D"color: rgb(0,0,0);">&nbsp;</span></p>
+<p><span style=3D"color: rgb(0,0,0);">En las peticiones de </span><u style=
+=3D"color: rgb(0,0,0);letter-spacing: 0.0px;">excepci=C3=B3n de solicitud d=
+e despliegue posterior</u><span style=3D"color: rgb(0,0,0);"> lo que se sol=
+icita es un despliegue posterior </span><u style=3D"color: rgb(0,0,0);lette=
+r-spacing: 0.0px;">planificado</u><span style=3D"color: rgb(0,0,0);"> en al=
+gunos QGs de la Release. En este caso, estas peticiones deben contener la i=
+nformaci=C3=B3n de la justificaci=C3=B3n del por qu=C3=A9 se desea realizar=
+ este despliegue posterior a las fases definidas en la Release. La viabilid=
+ad de este plan de acci=C3=B3n debe venir confirmada por un responsable de =
+cada equipo involucrado. Es importante identificar las posibles dependencia=
+s o impactos que puede provocar este despliegue posterior.</span></p>
+</div>
+</div>
+</div>
+</div>
+<p><br></p>
+<p><strong>TABLA DE CONTENIDOS</strong></p>
+<p>
+<style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1748412446535 {padding: 0px;}
+div.rbtoc1748412446535 ul {margin-left: 0px;}
+div.rbtoc1748412446535 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1748412446535">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-20250527HDEV529105[NewAPP]CuentasJustificanteTransferenc=
+iaTemporalPapyrus-[1]Encabezadodelasolicituddeexcepci=C3=B3n">[1] Encabezad=
+o de la solicitud de excepci=C3=B3n</a></li>
+<li><a href=3D"#id-20250527HDEV529105[NewAPP]CuentasJustificanteTransferenc=
+iaTemporalPapyrus-AssessmentdeNegocio">Assessment de Negocio</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-20250527HDEV529105[NewAPP]CuentasJustificanteTransferenc=
+iaTemporalPapyrus-[3]Impactosilaexcepci=C3=B3nnoseimplementa">[3] Impacto s=
+i la excepci=C3=B3n no se implementa</a></li>
+</ul></li>
+<li><a href=3D"#id-20250527HDEV529105[NewAPP]CuentasJustificanteTransferenc=
+iaTemporalPapyrus-AssessmentdeTecnolog=C3=ADa">Assessment de Tecnolog=C3=AD=
+a</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-20250527HDEV529105[NewAPP]CuentasJustificanteTransferenc=
+iaTemporalPapyrus-[4]AssessmentT=C3=A9cnicodelEquipodeDesarrollo">[4] Asses=
+sment T=C3=A9cnico del Equipo de Desarrollo</a></li>
+<li><a href=3D"#id-20250527HDEV529105[NewAPP]CuentasJustificanteTransferenc=
+iaTemporalPapyrus-[5]AssessmentdelEquipodeTesting">[5] Assessment del Equip=
+o de Testing</a></li>
+<li><a href=3D"#id-20250527HDEV529105[NewAPP]CuentasJustificanteTransferenc=
+iaTemporalPapyrus-[6]AssessmentdelEquipodeSeguridad">[6] Assessment del Equ=
+ipo de Seguridad</a></li>
+<li><a href=3D"#id-20250527HDEV529105[NewAPP]CuentasJustificanteTransferenc=
+iaTemporalPapyrus-[7]AssessmentdelComit=C3=A9dePruebasparaNFTAssurance">[7]=
+ Assessment del Comit=C3=A9 de Pruebas para NFT Assurance</a></li>
+<li><a href=3D"#id-20250527HDEV529105[NewAPP]CuentasJustificanteTransferenc=
+iaTemporalPapyrus-AssessmentRM">Assessment RM</a></li>
+<li><a href=3D"#id-20250527HDEV529105[NewAPP]CuentasJustificanteTransferenc=
+iaTemporalPapyrus-AssessmentCTA">Assessment CTA</a></li>
+<li><a href=3D"#id-20250527HDEV529105[NewAPP]CuentasJustificanteTransferenc=
+iaTemporalPapyrus-Assessmentgeneralderiesgosyrecomendaciones">Assessment ge=
+neral de riesgos y recomendaciones</a></li>
+</ul></li>
+</ul>
+</div>
+<p></p>
+<hr>
+<h2 id=3D"id-20250527HDEV529105[NewAPP]CuentasJustificanteTransferenciaTemp=
+oralPapyrus-[1]Encabezadodelasolicituddeexcepci=C3=B3n"><span style=3D"colo=
+r: rgb(153,51,102);">[1] Encabezado de la solicitud de excepci=C3=B3n</span=
+></h2>
+<p><strong>A rellenar por el Business Partner o Gestor de la Demanda</stron=
+g>:</p>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 63.=
+6164%;">
+<colgroup>
+<col style=3D"width: 24.6727%;">
+<col style=3D"width: 19.2416%;">
+<col style=3D"width: 16.9916%;">
+<col style=3D"width: 16.3709%;">
+<col style=3D"width: 13.6554%;">
+<col style=3D"width: 9.00012%;">
+</colgroup>
+<tbody>
+<tr>
+<th style=3D"text-align: center;" class=3D"confluenceTh">Solicitante</th>
+<th style=3D"text-align: center;" class=3D"confluenceTh">Release</th>
+<th style=3D"text-align: center;" class=3D"confluenceTh">Proyecto</th>
+<th style=3D"text-align: center;" class=3D"confluenceTh">Entrega</th>
+<th style=3D"text-align: center;" class=3D"confluenceTh">=C3=89pica/SCR</th=
+>
+<th style=3D"text-align: center;" class=3D"confluenceTh">Fecha de solicitud=
+</th>
+</tr>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd"><em style=3D"text-=
+align: center;">Pilar Mu=C3=B1oz Sanchiz</em></td>
+<td style=3D"text-align: center;" class=3D"confluenceTd"><em style=3D"text-=
+align: center;">T_25.6.1</em></td>
+<td style=3D"text-align: center;" class=3D"confluenceTd"><span style=3D"col=
+or: rgb(23,43,77);">PJ-17378<span>&nbsp;</span></span></td>
+<td style=3D"text-align: center;" class=3D"confluenceTd"><span style=3D"col=
+or: rgb(23,43,77);">PJ-17378<span>&nbsp;</span></span></td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">HDEV-529105</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><em style=3D"text-align: center;"><time datetime=3D"2025-05-27" class=3D=
+"date-past">27 may 2025</time>&nbsp;</em></p>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 100=
+.0%;">
+<colgroup>
+<col style=3D"width: 14.8795%;">
+<col style=3D"width: 7.96927%;">
+<col style=3D"width: 9.80268%;">
+<col style=3D"width: 7.42517%;">
+<col style=3D"width: 8.81507%;">
+<col style=3D"width: 11.8342%;">
+<col style=3D"width: 8.54252%;">
+<col style=3D"width: 5.83213%;">
+<col style=3D"width: 14.5154%;">
+</colgroup>
+<tbody>
+<tr>
+<th rowspan=3D"2" class=3D"confluenceTh">
+<p>Tipo de excepci=C3=B3n:</p>
+<p><span style=3D"color: rgb(0,128,0);">Marca la casilla o casillas que cor=
+responda.</span></p></th>
+<th class=3D"highlight-blue confluenceTh" data-highlight-colour=3D"blue">A=
+=C3=B1adir a la release</th>
+<th class=3D"highlight-blue confluenceTh" data-highlight-colour=3D"blue">Qu=
+itar de la release</th>
+<th class=3D"highlight-blue confluenceTh" data-highlight-colour=3D"blue"><s=
+pan style=3D"color: rgb(0,0,0);">Despliegue previo</span></th>
+<th class=3D"highlight-blue confluenceTh" data-highlight-colour=3D"blue"><s=
+pan style=3D"color: rgb(0,0,0);">Despliegue posterior</span></th>
+<th class=3D"highlight-blue confluenceTh" data-highlight-colour=3D"blue">Ca=
+mbio no planificado en PROD</th>
+<th class=3D"highlight-blue confluenceTh" data-highlight-colour=3D"blue">De=
+fecto de regresi=C3=B3n</th>
+<th class=3D"highlight-blue confluenceTh" data-highlight-colour=3D"blue">Ot=
+ros</th>
+<th class=3D"highlight-red confluenceTh" colspan=3D"1" data-highlight-colou=
+r=3D"red">
+<p>Excepci=C3=B3n administrativa</p>
+<p>(s=C3=B3lo uso de RM Sabadell Digital)</p></th>
+</tr>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"181090588">
+<li style=3D"background-image: none;">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"181090588">
+<li style=3D"background-image: none;">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"181090588">
+<li class=3D"checked" data-inline-task-id=3D"9"><span>&nbsp;</span></li>
+</ul></li>
+</ul></li>
+</ul></td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"181090588">
+<li style=3D"background-image: none;">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"181090588">
+<li style=3D"background-image: none;">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"181090588">
+<li data-inline-task-id=3D"10"><span>&nbsp;</span></li>
+</ul></li>
+</ul></li>
+</ul></td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"181090588">
+<li style=3D"background-image: none;">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"181090588">
+<li style=3D"background-image: none;">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"181090588">
+<li class=3D"checked" data-inline-task-id=3D"12"><span>&nbsp;</span></li>
+</ul></li>
+</ul></li>
+</ul></td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"181090588">
+<li style=3D"background-image: none;">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"181090588">
+<li style=3D"background-image: none;">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"181090588">
+<li style=3D"background-image: none;">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"181090588">
+<li data-inline-task-id=3D"13"><span>&nbsp;</span></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"181090588">
+<li style=3D"background-image: none;">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"181090588">
+<li style=3D"background-image: none;">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"181090588">
+<li style=3D"background-image: none;">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"181090588">
+<li style=3D"background-image: none;">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"181090588">
+<li data-inline-task-id=3D"14"><span>&nbsp;</span></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"181090588">
+<li style=3D"background-image: none;">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"181090588">
+<li style=3D"background-image: none;">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"181090588">
+<li style=3D"background-image: none;">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"181090588">
+<li data-inline-task-id=3D"15"><span>&nbsp;</span></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"181090588">
+<li style=3D"background-image: none;">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"181090588">
+<li data-inline-task-id=3D"16"><span>&nbsp;</span></li>
+</ul></li>
+</ul></td>
+<td class=3D"highlight-red confluenceTd" colspan=3D"1" data-highlight-colou=
+r=3D"red" style=3D"text-align: center;">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"181090588">
+<li data-inline-task-id=3D"18"><span>&nbsp;</span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 98.=
+845%;">
+<colgroup>
+<col style=3D"width: 9.47552%;">
+<col style=3D"width: 90.5017%;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Breve descripci=C3=B3n de lo que se solicita:</t=
+h>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+<p><br><br></p>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<hr>
+<p><br></p>
+<h2 id=3D"id-20250527HDEV529105[NewAPP]CuentasJustificanteTransferenciaTemp=
+oralPapyrus-AssessmentdeNegocio"><span style=3D"color: rgb(153,51,102);">As=
+sessment de Negocio</span></h2>
+<p><span style=3D"color: rgb(0,0,0);">El/la solicitante debe ser el/la&nbsp=
+;<strong>Business Partner o Gestor de la demanda.</strong></span></p>
+<p><span style=3D"color: rgb(0,0,0);">En proyectos t=C3=A9cnicos, es posibl=
+e que no aplique una justificaci=C3=B3n de negocio y s=C3=AD una justificac=
+i=C3=B3n t=C3=A9cnica, pero es necesario rellenar esta informaci=C3=B3n. Ut=
+iliza esta secci=C3=B3n para describirla.</span></p>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped relative-table confluenceTable" style=3D"width: 91.=
+2306%;">
+<colgroup>
+<col style=3D"width: 49.3363%;">
+<col style=3D"width: 50.6711%;">
+</colgroup>
+<tbody>
+<tr>
+<th colspan=3D"2" scope=3D"colgroup" class=3D"confluenceTh"><span style=3D"=
+color: rgb(153,51,102);font-size: 16.0px;letter-spacing: -0.006em;">[2] Jus=
+tificaci=C3=B3n de Negocio</span></th>
+</tr>
+<tr>
+<td colspan=3D"2" class=3D"confluenceTd">
+<p><strong>Justificaci=C3=B3n:&nbsp;</strong></p>
+<p>Como parte de la iniciativa de NewApp Cuentas, se necesita un <span styl=
+e=3D"color: rgb(23,43,77);">Justificante de transferencia temporal para aqu=
+ellas transferencias hechas en el d=C3=ADa.</span><br style=3D"text-align: =
+left;"><span style=3D"color: rgb(23,43,77);">Se generar=C3=A1 a petici=C3=
+=B3n del cliente y se almacenar=C3=A1 en DMS.</span></p>
+<p><br></p></td>
+</tr>
+<tr>
+<td colspan=3D"2" class=3D"confluenceTd">
+<h3 title=3D"" id=3D"id-20250527HDEV529105[NewAPP]CuentasJustificanteTransf=
+erenciaTemporalPapyrus-[3]Impactosilaexcepci=C3=B3nnoseimplementa"><span st=
+yle=3D"color: rgb(153,51,102);">[3] Impacto si la excepci=C3=B3n no se impl=
+ementa</span></h3></td>
+</tr>
+<tr>
+<td colspan=3D"2" class=3D"confluenceTd">
+<p><strong>Descripci=C3=B3n del impacto:&nbsp;</strong>Impacto en el alcanc=
+e definido para las acciones en movimientos de cuenta en la New App. No hay=
+ impacto en BSM</p></td>
+</tr>
+<tr>
+<td rowspan=3D"2" class=3D"confluenceTd">
+<p><strong>=C2=BFHay impacto en el cliente?</strong></p>
+<p><span style=3D"color: rgb(51,153,102);"><em>No</em></span></p></td>
+<td class=3D"confluenceTd">
+<p><strong>En caso S=C3=AD =C2=BFCual es el impacto para el cliente?</stron=
+g></p>
+<p><br></p>
+<p><br></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>En caso S=C3=AD =C2=BFcausa da=C3=B1o o inconveniente para el ba=
+nco?</strong></p>
+<p><br></p>
+<p><br></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>Impacto regulatorio:</strong>&nbsp;<span=
+ style=3D"color: rgb(51,153,102);"><em> No Aplica</em></span></td>
+<td class=3D"confluenceTd">
+<p><strong>Otro impacto:</strong> <span style=3D"color: rgb(51,153,102);"><=
+em>(indicar Alto, Medio, Bajo o No Aplica) (Si aplica, especificar de qu=C3=
+=A9 impacto se trata)</em></span></p>
+<p><br></p></td>
+</tr>
+<tr>
+<td colspan=3D"2" class=3D"confluenceTd"><strong>Responsable de Negocio que=
+ revisa y aprueba [2] y [3]:</strong> <em>Alvaro Pinz=C3=B3n Ortega</em></t=
+d>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p><br></p>
+<h2 id=3D"id-20250527HDEV529105[NewAPP]CuentasJustificanteTransferenciaTemp=
+oralPapyrus-AssessmentdeTecnolog=C3=ADa"><span style=3D"color: rgb(153,51,1=
+02);">Assessment de Tecnolog=C3=ADa</span></h2>
+<p><strong>El equipo de desarrollo, pruebas, seguridad y NFT deber=C3=A1 re=
+llenar&nbsp;las secciones [4], [5], [6] y [7]</strong> de este formulario.<=
+/p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 93.=
+0205%;">
+<colgroup>
+<col style=3D"width: 49.3155%;">
+<col style=3D"width: 50.6451%;">
+</colgroup>
+<tbody>
+<tr>
+<th colspan=3D"2" class=3D"confluenceTh">
+<h3 style=3D"text-align: center;" id=3D"id-20250527HDEV529105[NewAPP]Cuenta=
+sJustificanteTransferenciaTemporalPapyrus-[4]AssessmentT=C3=A9cnicodelEquip=
+odeDesarrollo"><span style=3D"color: rgb(153,51,102);">[4] Assessment T=C3=
+=A9cnico del Equipo de Desarrollo</span></h3></th>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"2" data-highlight-colo=
+ur=3D"grey"><span style=3D"color: rgb(153,51,102);">(Assessment t=C3=A9cnic=
+o del equipo de desarrollo sobre la viabilidad de este cambio dentro de los=
+ plazos requeridos junto con una evaluaci=C3=B3n del riesgo de progresar co=
+n este cambio).</span></td>
+</tr>
+<tr>
+<td rowspan=3D"2" class=3D"confluenceTd">
+<p><span style=3D"color: rgb(0,0,0);"><strong>Cambio detallado:</strong></s=
+pan></p>
+<p><span style=3D"color: rgb(0,0,0);">Modificaci=C3=B3n de apis y microserv=
+icios existentes en BSM (nuevos endpoints)</span></p>
+<p><span style=3D"color: rgb(0,0,0);"><span>api-payment-initiation-experien=
+ce-digital-v1&nbsp; &nbsp;&nbsp;<br>
+ ms-baas-payment-initiation-v1&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp;<br>
+ ms-baas-payment-initiation-v1-conf&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>
+ ms-sys-payment-initiation-dds-v1&nbsp; &nbsp; (nuevo)<br>
+ ms-sys-payment-initiation-dds-v1-conf&nbsp; &nbsp; &nbsp;( nuevo)</span></=
+span></p><br>
+<p><span style=3D"color: rgb(0,0,0);"><strong>&nbsp;</strong></span></p>
+<p><span style=3D"color: rgb(0,0,0);"><strong>&nbsp;</strong></span></p><br=
+>
+<p><span style=3D"color: rgb(0,0,0);"><strong>&nbsp;</strong></span></p></t=
+d>
+<td class=3D"confluenceTd">
+<p><strong style=3D"letter-spacing: 0.0px;">=C2=BFSe requiere NFT?</strong>=
+<span style=3D"letter-spacing: 0.0px;"> No</span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong style=3D"letter-spacing: 0.0px;"><strong>Justificaci=C3=B3n en c=
+aso de que no se requiera NFT:</strong></strong> Las pruebas de performance=
+ y rendimiento de los cambios para NewApp se ejecutan&nbsp;</p></td>
+</tr>
+<tr>
+<td rowspan=3D"2" class=3D"confluenceTd"><strong>Riesgo t=C3=A9cnico:</stro=
+ng>&nbsp;=20
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable" data-mce-resize=3D"false">
+<colgroup class=3D"">
+<col class=3D"">
+<col class=3D"">
+<col class=3D"">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"confluenceTd"><span style=3D"color: rgb(51,153,102);"><em>Cate=
+gor=C3=ADa del riesgo</em></span></td>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(51,153,102);"><em>Comp=
+lejidad t=C3=A9cnica</em></span></td>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(51,153,102);"><em>Impa=
+cto previsto en las pruebas</em></span></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><span style=3D"color: rgb(51,153,102);"><em>Bajo=
+ Riesgo</em></span></td>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(51,153,102);"><em>El c=
+ambio t=C3=A9cnico es simple, tiene cero o bajo n=C3=BAmero de dependencias=
+ con otro c=C3=B3digo.</em></span></td>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(51,153,102);"><em>Prue=
+bas aisladas del componente a trav=C3=A9s de un journey.</em></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p></td>
+<td class=3D"confluenceTd">
+<p><strong>Dependencias</strong></p>
+<p><strong>Detallar de qu=C3=A9 proyectos depende =C3=A9ste, y cuando se en=
+tregan: </strong>Bloque IV New App - Cuentas</p>
+<p><br></p>
+<p><strong>Detallar qu=C3=A9 otros proyectos dependen de =C3=A9ste, y cuand=
+o se entregan: </strong>Ninguno</p>
+<p><br></p>
+<p><strong>Indicar si se toca c=C3=B3digo compartido con otros proyectos: <=
+/strong><span style=3D"color: rgb(0,128,0);"><em>Si</em></span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong><strong>Plan de mitigaci=C3=B3n propuesto: </strong></strong><em=
+><span style=3D"color: rgb(51,153,102);"><em>Pruebas de regresi=C3=B3n dent=
+ro de la release BSM</em></span></em></p>
+<p><span style=3D"color: rgb(51,153,102);"><em><em>&nbsp;</em></em></span><=
+/p>
+<p><strong><strong>&nbsp;</strong></strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Responsable del equipo de Desarrollo que prepara y aprueba [4]: =
+<em>Pilar Mu=C3=B1oz Sanchiz</em></strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>Riesgo t=C3=A9cnico residual (considerando el plan de mitigaci=
+=C3=B3n)</strong><strong><br></strong></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 99.=
+5137%;">
+<colgroup>
+<col style=3D"width: 46.2613%;">
+<col style=3D"width: 53.7484%;">
+</colgroup>
+<tbody>
+<tr>
+<th colspan=3D"2" style=3D"text-align: center;" class=3D"confluenceTh">
+<h3 id=3D"id-20250527HDEV529105[NewAPP]CuentasJustificanteTransferenciaTemp=
+oralPapyrus-[5]AssessmentdelEquipodeTesting"><span style=3D"color: rgb(153,=
+51,102);">[5] Assessment del Equipo de Testing</span></h3></th>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"2" data-highlight-colo=
+ur=3D"grey"><span style=3D"color: rgb(153,51,102);">(El responsable de prue=
+bas o representante confirma que las pruebas se pueden ejecutar dentro de l=
+a ventana actual, y no hay ning=C3=BAn impacto en otras =C3=A1reas actualme=
+nte en prueba. O si lo hay, es un impacto aceptable).</span></td>
+</tr>
+<tr>
+<td colspan=3D"2" class=3D"confluenceTd">
+<p><strong>Assessment:</strong></p>
+<p><strong>=C2=BFSe puede asumir este proyecto en la release, sin perjuicio=
+ para los proyectos que ya est=C3=A1n en la release? &nbsp; </strong><span =
+style=3D"color: rgb(51,153,102);"><em>(S=C3=AD/No y breve comentario.&nbsp;=
+ Esta pregunta aplica s=C3=B3lo a excepciones de a=C3=B1adir a la release. =
+Lo que se est=C3=A1 preguntando es que no se d=C3=A9 el caso de que, para m=
+eter este proyecto en release, se deje de testear, o se testee menos, (o ha=
+ya riesgo de que se deje de testear o se testee menos) cualquier otros de l=
+os proyectos que s=C3=AD que est=C3=A1n en release. Estamos preguntando sob=
+re la capcidad de entrega del equipo de Testing)</em></span></p>
+<p><br></p>
+<p><em><span style=3D"color: rgb(51,153,102);">(Cualquier comentario que co=
+nsider=C3=A9is oportuno)</span>&nbsp;</em></p>
+<p><br></p>
+<p><strong><em>Impacto en la Matriz de Regresi=C3=B3n:</em></strong></p>
+<p><em>Si ya se ha realizado el sign-off del QG4, responda a la pregunta 1.=
+ Si a=C3=BAn no se ha realizado el sign-off del QG4 responda a la pregunta =
+2.</em></p>
+<ol>
+<li><strong>=C2=BFSe ha identificado el impacto en la Matriz de Regresi=C3=
+=B3n y el SSM est=C3=A1 creado y en estado ACCEPTANCE? </strong><span style=
+=3D"color: rgb(51,153,102);"><em>(S=C3=AD/No, breve comentario)</em></span>=
+</li>
+<li><strong>=C2=BFSe va a identificar el impacto en la Matriz de Regresi=C3=
+=B3n y el SSM estar=C3=A1 creado y en estado ACCEPTANCE antes del sign-off =
+del QG4? </strong><span style=3D"color: rgb(51,153,102);"><em>(S=C3=AD/No, =
+breve comentario)</em></span></li>
+</ol>
+<p><br></p>
+<p><strong>Assessment v=C3=A1lido hasta la fecha: &nbsp;</strong><span styl=
+e=3D"color: rgb(51,153,102);"><em style=3D"text-align: center;">(para indic=
+ar la fecha teclear //)</em></span><strong> &nbsp;</strong><span style=3D"c=
+olor: rgb(51,153,102);"><em>(Es decir, el assessment es v=C3=A1lido si la e=
+xcepci=C3=B3n se aprueba en esta fecha o antes. Si pasada esta fecha la sol=
+icitud no se ha aprobado, no podr=C3=ADa aprobarse sin solicitar antes un u=
+pdate del assessment)</em></span></p></td>
+</tr>
+<tr>
+<td colspan=3D"2" class=3D"confluenceTd">
+<p><strong>Detalle de las pruebas que se plantean:</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p></td>
+</tr>
+<tr>
+<td rowspan=3D"2" class=3D"confluenceTd">
+<p><strong>Pruebas a realizar por:</strong></p>
+<p><em><span style=3D"color: rgb(51,153,102);">(indicar Equipo de Test o =
+=C3=81rea de Negocio)</span></em></p></td>
+<td class=3D"confluenceTd"><strong>Si "=C3=81rea de Negocio", persona que v=
+a a realizar las pruebas:</strong> <em>Nombre Apellidos</em></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>Si "=C3=81rea de Negocio", la persona qu=
+e va a realizar las pruebas est=C3=A1 informada y se ha confirmado su dispo=
+nibilidad en las fechas previstas</strong>: <span style=3D"color: rgb(51,15=
+3,102);"><em>(indicar S=C3=AD o No)</em></span></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>Responsable del Equipo de Test que prepa=
+ra y aprueba [5]: </strong><em>Nombre Apellidos</em></td>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(0,0,0);"><strong>Riesg=
+o incumplimiento ejecuci=C3=B3n plan de pruebas:</strong> <span style=3D"co=
+lor: rgb(51,153,102);"><em>(indicar Alto, Medio, Bajo)</em></span></span></=
+td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 99.=
+6353%;">
+<colgroup>
+<col style=3D"width: 46.3261%;">
+<col style=3D"width: 53.6512%;">
+</colgroup>
+<tbody>
+<tr>
+<th colspan=3D"2" style=3D"text-align: center;" class=3D"confluenceTh">
+<h3 id=3D"id-20250527HDEV529105[NewAPP]CuentasJustificanteTransferenciaTemp=
+oralPapyrus-[6]AssessmentdelEquipodeSeguridad"><span style=3D"color: rgb(15=
+3,51,102);">[6] Assessment del Equipo de Seguridad</span></h3></th>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"2" data-highlight-colo=
+ur=3D"grey"><span style=3D"color: rgb(153,51,102);">(El responsable de segu=
+ridad o representante confirma que las pruebas de seguridad se pueden ejecu=
+tar dentro de la ventana actual). </span></td>
+</tr>
+<tr>
+<td colspan=3D"2" class=3D"confluenceTd">
+<p><strong>Assessment:</strong></p>
+<p><strong>=C2=BFSe puede asumir este proyecto en la release, sin perjuicio=
+ para los proyectos que ya est=C3=A1n en la release? &nbsp; </strong><span =
+style=3D"color: rgb(51,153,102);"><em><span style=3D"color: rgb(51,153,102)=
+;">(S=C3=AD/No y breve comentario.&nbsp; Esta pregunta aplica s=C3=B3lo a e=
+xcepciones de a=C3=B1adir a la release. Lo que se est=C3=A1 preguntando es =
+que no se d=C3=A9 el caso de que, para meter este proyecto en release, se d=
+eje de testear, o se testee menos, (o haya riesgo de que se deje de testear=
+ o se testee menos) cualquier otros de los proyectos que s=C3=AD que est=C3=
+=A1n en release. Estamos preguntando sobre la capcidad de entrega del equip=
+o de Seguridad)</span></em></span></p>
+<p><br></p>
+<p><em><span style=3D"color: rgb(51,153,102);">(Cualquier comentario que co=
+nsider=C3=A9is oportuno)</span></em></p>
+<p><br></p>
+<p><strong>Assesment v=C3=A1lido hasta la fecha: &nbsp;</strong><span style=
+=3D"color: rgb(51,153,102);"><em style=3D"text-align: center;">(para indica=
+r la fecha teclear //)</em></span><strong> &nbsp;</strong><span style=3D"co=
+lor: rgb(51,153,102);"><em>(Es decir, el assessment es v=C3=A1lido si la ex=
+cepci=C3=B3n se aprueba en esta fecha o antes. Si pasada esta fecha la soli=
+citud no se ha aprobado, no podr=C3=ADa aprobarse sin solicitar antes un up=
+date del assessment)</em></span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>Responsable del Equipo de Seguridad que =
+prepara y aprueba [6]:</strong> <em>Nombre Apellidos</em></td>
+<td class=3D"confluenceTd"><strong>Riesgo de seguridad:</strong> <span styl=
+e=3D"color: rgb(51,153,102);"><em>(Riesgo de que aceptar la excepci=C3=B3n =
+cause un problema de seguridad. I</em><em>ndicar Alto, Medio, Bajo)</em></s=
+pan></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 100=
+.0%;">
+<colgroup>
+<col style=3D"width: 46.2183%;">
+<col style=3D"width: 53.7595%;">
+</colgroup>
+<tbody>
+<tr>
+<th colspan=3D"2" style=3D"text-align: center;" class=3D"confluenceTh">
+<h3 id=3D"id-20250527HDEV529105[NewAPP]CuentasJustificanteTransferenciaTemp=
+oralPapyrus-[7]AssessmentdelComit=C3=A9dePruebasparaNFTAssurance"><span sty=
+le=3D"color: rgb(153,51,102);">[7] Assessment del Comit=C3=A9 de Pruebas pa=
+ra NFT Assurance</span></h3></th>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"2" data-highlight-colo=
+ur=3D"grey"><span style=3D"color: rgb(153,51,102);">(El Comit=C3=A9 de Prue=
+bas para NFT Assurance controla las pruebas de rendimiento de NFT y los pos=
+ibles impactos en otras =C3=A1reas).</span></td>
+</tr>
+<tr>
+<td colspan=3D"2" class=3D"confluenceTd">
+<p><strong>Assessment:</strong></p>
+<p><br></p>
+<p><br></p>
+<p><br></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>Responsable del Comit=C3=A9 de Pruebas N=
+FT que prepara y aprueba [7]:</strong><span> </span><em>Nombre Apellidos</e=
+m></td>
+<td class=3D"confluenceTd"><strong>Riesgo de performance:</strong><em> <spa=
+n style=3D"color: rgb(51,153,102);">(Riesgo de que aceptar la excepci=C3=B3=
+n cause un problema de rendimiento. Indicar Alto, Medio, Bajo)</span></em><=
+/td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-not=
+e">
+<p class=3D"title conf-macro-render">Solicitud de excepci=C3=B3n completada=
+</p><span class=3D"aui-icon aui-icon-small aui-iconfont-warning confluence-=
+information-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>Si hab=C3=A9is completado estas secciones anteriores [1] a [7], ya hab=
+=C3=A9is completado la solicitud de excepci=C3=B3n.</p>
+<p>Quita la etiqueta <span style=3D"color: rgb(255,204,0);"><strong>RM_EXCE=
+PCION_WIP</strong></span> y a=C3=B1ade en su lugar la etiqueta <span style=
+=3D"color: rgb(255,204,0);"><strong>RM_EXCEPCION_RFA</strong></span>. No de=
+b=C3=A9is editar ya nada m=C3=A1s.</p>
+<p>El resto del formulario lo rellenan Release Management Sabadell Digital =
+y CTA. Os daremos respuesta a la solicitud en el plazo de 1 d=C3=ADa labora=
+ble, siempre y cuando el formulario se haya rellenado correctamente y conte=
+nga toda la informaci=C3=B3n necesaria para evaluar la petici=C3=B3n.</p>
+<p>Gracias por vuestra colaboraci=C3=B3n.</p>
+</div>
+</div>
+<p><br></p>
+<p><span style=3D"color: rgb(0,0,0);">El equipo de RM revisar=C3=A1 la peti=
+ci=C3=B3n de excepci=C3=B3n. Si falta informaci=C3=B3n o tiene alguna duda,=
+ contactar=C3=A1 con el/la solicitante para que edite de nuevo el formulari=
+o. Despu=C3=A9s emitir=C3=A1 una recomendaci=C3=B3n.</span></p>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Si la recomendaci=C3=B3n es OK y se =
+considera que el riesgo de la excepci=C3=B3n es bajo, el equipo de RM Sabad=
+ell Digital ser=C3=A1 aut=C3=B3nomo para dar el OK a la excepci=C3=B3n.</sp=
+an></li>
+<li><span style=3D"color: rgb(0,0,0);">En caso contrario, la decisi=C3=B3n =
+se escalar=C3=A1 al CTA para su aprobaci=C3=B3n o no.</span><br><span style=
+=3D"color: rgb(0,0,0);"><br></span></li>
+</ul>
+<p><span style=3D"color: rgb(0,0,0);">Tanto en un caso como en orto, cuando=
+ haya una decisi=C3=B3n definitiva sobre la excepci=C3=B3n, RM la notificar=
+=C3=A1 por email a los interesados.</span></p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 100=
+.0%;">
+<colgroup>
+<col style=3D"width: 87.9351%;">
+<col style=3D"width: 12.0428%;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<h3 style=3D"text-align: center;" id=3D"id-20250527HDEV529105[NewAPP]Cuenta=
+sJustificanteTransferenciaTemporalPapyrus-AssessmentRM"><span style=3D"colo=
+r: rgb(153,51,102);">Assessment RM</span></h3></th>
+<th style=3D"text-align: center;" class=3D"confluenceTh"><span style=3D"col=
+or: rgb(153,51,102);">Confirmaci=C3=B3n RM</span></th>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey"><s=
+pan style=3D"color: rgb(153,51,102);">(Assessment de RM acerca de la viabil=
+idad de aceptar esta excepci=C3=B3n).</span></td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">
+<div class=3D"content-wrapper">
+<p style=3D"text-align: center;"><span style=3D"color: rgb(51,153,102);"><e=
+m>(dejar s=C3=B3lo la etiqueta que corresponda)</em></span></p>
+<p style=3D"text-align: center;"><em><span class=3D"status-macro aui-lozeng=
+e aui-lozenge-success">OK</span></em></p>
+<p style=3D"text-align: center;"><em><span class=3D"status-macro aui-lozeng=
+e aui-lozenge-error">KO</span></em></p>
+<p style=3D"text-align: center;"><em><em style=3D"text-align: center;"><spa=
+n class=3D"status-macro aui-lozenge">N/A</span></em><br></em></p>
+</div></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><em><span style=3D"color: rgb(0,51,102);">ej.:</span></em></p>
+<ul>
+<li><em><span style=3D"color: rgb(0,51,102);">La necesidad de a=C3=B1adir e=
+ste nuevo alcance a la release T_24.2.1 ha sido justificada suficientemente=
+ por Negocio, que justifica tambi=C3=A9n porqu=C3=A9 este cambio no pudo id=
+entificarse y planificarse con anterioridad cuando se negociaba el contenid=
+o de la release (QGs 1, 2 y 3).</span></em></li>
+<li><em><span style=3D"color: rgb(0,51,102);">Los diferentes equipos han co=
+nfirmado que pueden asumir la sobrecarga de esfuerzo dentro de las fechas d=
+e los QG de la release. Y no se plantea ninguna reducci=C3=B3n de pruebas S=
+T/SIT, ACC y UAT.</span></em></li>
+<li><em><span style=3D"color: rgb(0,51,102);">Nada indica que la inclusi=C3=
+=B3n de este cambio en la release a=C3=B1ada riesgo.</span></em></li>
+<li><em><span style=3D"color: rgb(0,51,102);">Teniendo en cuenta todo lo an=
+terior, el equipo de Release Management recomienda un OK a la solicitud de =
+excepci=C3=B3n. </span><span style=3D"color: rgb(51,153,102);">(=E2=86=90 y=
+ en este caso dejar=C3=ADamos s=C3=B3lo la etiqueta OK)</span></em></li>
+</ul>
+<p><br></p>
+<p><br></p></td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p style=3D"text-align: left;"><strong>Revisaron:</strong></p>
+<p><em>Nombre Apellidos</em></p>
+<p><em>&nbsp;</em></p>
+<p style=3D"text-align: left;"><strong>Fecha:</strong></p>
+<p><span style=3D"color: rgb(51,153,102);"><em style=3D"text-align: center;=
+">(para indicar la fecha teclear //)</em></span></p>
+</div></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">
+<h3 style=3D"text-align: center;" id=3D"id-20250527HDEV529105[NewAPP]Cuenta=
+sJustificanteTransferenciaTemporalPapyrus-AssessmentCTA"><span style=3D"col=
+or: rgb(153,51,102);"><strong>Assessment CTA</strong></span></h3></td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey" st=
+yle=3D"text-align: center;"><span style=3D"color: rgb(153,51,102);"><strong=
+>Confirmaci=C3=B3n CTA</strong></span></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey"><s=
+pan style=3D"color: rgb(153,51,102);">(Assessment t=C3=A9cnico por parte de=
+ CTA de la complejidad t=C3=A9cnica de aceptar esta excepci=C3=B3n en los p=
+lazos solicitados, incluida una visi=C3=B3n del riesgo que pueda comportar)=
+.</span></td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">
+<div class=3D"content-wrapper">
+<p style=3D"text-align: center;"><span style=3D"color: rgb(51,153,102);"><e=
+m>(dejar s=C3=B3lo la etiqueta que corresponda)</em></span></p>
+<p style=3D"text-align: center;"><em><span class=3D"status-macro aui-lozeng=
+e aui-lozenge-success">OK</span></em></p>
+<p style=3D"text-align: center;"><em><span class=3D"status-macro aui-lozeng=
+e aui-lozenge-error">KO</span></em></p>
+<p style=3D"text-align: center;"><em><em style=3D"text-align: center;"><em>=
+<span class=3D"status-macro aui-lozenge">N/A</span></em></em><br></em></p>
+</div></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><br></p>
+<p><br></p>
+<p><br></p></td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p style=3D"text-align: left;"><strong>Revisaron:</strong></p>
+<p><em style=3D"letter-spacing: 0.0px;">Nombre Apellidos</em></p>
+<p><em style=3D"letter-spacing: 0.0px;">&nbsp;</em></p>
+<p style=3D"text-align: left;"><strong>Fecha:</strong></p>
+<p><span style=3D"color: rgb(51,153,102);"><em style=3D"text-align: center;=
+">(para indicar la fecha teclear //)</em></span><strong><br></strong></p>
+<p><em style=3D"letter-spacing: 0.0px;">&nbsp;</em></p>
+</div></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">
+<h3 style=3D"text-align: center;" id=3D"id-20250527HDEV529105[NewAPP]Cuenta=
+sJustificanteTransferenciaTemporalPapyrus-Assessmentgeneralderiesgosyrecome=
+ndaciones"><span style=3D"color: rgb(153,51,102);"><strong>Assessment gener=
+al de riesgos y recomendaciones</strong></span></h3></td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey" st=
+yle=3D"text-align: center;"><strong><span style=3D"color: rgb(153,51,102);"=
+><strong>Confirmaci=C3=B3n CTA</strong></span><br></strong></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey"><s=
+pan style=3D"color: rgb(153,51,102);">(Resumen proporcionado por CTA, consi=
+derando todos los hechos proporcionados y haciendo una recomendaci=C3=B3n s=
+obre c=C3=B3mo proceder, por ejemplo, el cambio se puede afrontar de manera=
+ segura o el cambio no puede progresar).</span></td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">
+<div class=3D"content-wrapper">
+<p style=3D"text-align: center;"><span style=3D"color: rgb(51,153,102);"><e=
+m>(dejar s=C3=B3lo la etiqueta que corresponda)</em></span></p>
+<p style=3D"text-align: center;"><em><span class=3D"status-macro aui-lozeng=
+e aui-lozenge-success">OK</span></em></p>
+<p style=3D"text-align: center;"><em><span class=3D"status-macro aui-lozeng=
+e aui-lozenge-error">KO</span></em></p>
+<p style=3D"text-align: center;"><em><em style=3D"text-align: center;"><em>=
+<span class=3D"status-macro aui-lozenge">N/A</span></em></em><br></em></p>
+</div></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><br></p>
+<p><br></p>
+<p><br></p></td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p style=3D"text-align: left;"><strong>Revisaron:</strong></p>
+<p style=3D"text-align: center;"><em>Nombre Apellidos</em></p>
+<p style=3D"text-align: center;"><em>&nbsp;</em></p>
+<p style=3D"text-align: left;"><strong>Fecha:</strong></p>
+<p style=3D"text-align: center;"><span style=3D"color: rgb(51,153,102);"><e=
+m>(para indicar la fecha teclear //)</em></span><strong><br></strong></p>
+<p><br></p>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_23036_177075305.1748412446575
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/dbb7a09f5ee653eeb947b95c926d73ef
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/4QCuRXhpZgAASUkqAAgAAAAHABIBAwABAAAAAQAAABoBBQAB
+AAAAYgAAABsBBQABAAAAagAAACgBAwABAAAAAgAAADEBAgANAAAAcgAAADIBAgAUAAAAgAAAAGmH
+BAABAAAAlAAAAAAAAABgAAAAAQAAAGAAAAABAAAAR0lNUCAyLjEwLjM2AAAyMDI0OjAxOjI5IDE3
+OjMyOjEzAAEAAaADAAEAAAABAAAAAAAAAP/hDM1odHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+ADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4
+OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDQuNC4w
+LUV4aXYyIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIy
+LXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1w
+TU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0RXZ0PSJodHRwOi8v
+bnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VFdmVudCMiIHhtbG5zOkdJTVA9Imh0
+dHA6Ly93d3cuZ2ltcC5vcmcveG1wLyIgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVt
+ZW50cy8xLjEvIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1N
+OkRvY3VtZW50SUQ9ImdpbXA6ZG9jaWQ6Z2ltcDo4ZDYzZjVmMy05MTdhLTQzM2MtOGY1OS03ZTQ4
+MjhhYTVkMzQiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6YzY1NTQ4NmYtNzRmMC00OTIzLTkw
+MjctM2EyMjg5NjI0YzgwIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6NDEwZTA5
+YWItMjRkNC00YWY4LThiM2YtOWYwZTA5MTMwZWJhIiBHSU1QOkFQST0iMi4wIiBHSU1QOlBsYXRm
+b3JtPSJXaW5kb3dzIiBHSU1QOlRpbWVTdGFtcD0iMTcwNjU0NTkzNjg0NTU3MCIgR0lNUDpWZXJz
+aW9uPSIyLjEwLjM2IiBkYzpGb3JtYXQ9ImltYWdlL2pwZWciIHhtcDpDcmVhdG9yVG9vbD0iR0lN
+UCAyLjEwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDI0OjAxOjI5VDE3OjMyOjEzKzAxOjAwIiB4bXA6
+TW9kaWZ5RGF0ZT0iMjAyNDowMToyOVQxNzozMjoxMyswMTowMCI+IDx4bXBNTTpIaXN0b3J5PiA8
+cmRmOlNlcT4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDpjaGFuZ2VkPSIvIiBz
+dEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjY0YWI2ZWQ2LTRmMTQtNDgwOC1iNWI4LTkzZWYyYTJi
+MDBiOSIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iR2ltcCAyLjEwIChXaW5kb3dzKSIgc3RFdnQ6d2hl
+bj0iMjAyNC0wMS0yOVQxNzozMjoxNiIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9y
+ZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+ICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPD94cGFja2V0IGVuZD0idyI/Pv/i
+ArBJQ0NfUFJPRklMRQABAQAAAqBsY21zBEAAAG1udHJSR0IgWFlaIAfoAAEAHQAQAB8AGmFjc3BN
+U0ZUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD21gABAAAAANMtbGNtcwAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADWRlc2MAAAEgAAAAQGNwcnQAAAFgAAAA
+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
+67F5mKypuSdEuMd4ERRX2YrUHqiJZqD15q1pflz6ka8kGr4zHztYV90dciVERbmP7hL4P7Gu5tuI
+5EGu+1Bj7tW4qpYx3xCricKmw26NXEI7xf0I+6oi9CP7xHeGzy4t3SchU5Yn9RW2kxmY3CiKYbKY
+uo9UsRvGuuiip4nKeFGmNjv/ANMSLexEvjUqftZ5WGPNikYhwp/RThLzhLzhT7nCpOhwl5wl5wmQ
+4Q+9zhD+pwp4nZL0OFPVbnCHqcIkQ4VIcJecIk9BOypEOFPF7JeL2Q84S5ROy3oO7Le9cSnCXidl
+PQ4RJ6HCZL3OEyC9kyHCZBOzHocJfe5wl4nZL0OEvQ4S8Tsh6HCXnCJDhLzhLzhD73OEvRbnCpFO
+FPOEPE7IkOFSCdkuOEvUXsp5wp6idkPQ4RIcJecJkOEyHCXkXZj4nXKlFa1iL5Vr3M+1TOk3M6Tc
+zn7mdJuZ0m5nSbmdJuZ0m5nP3M6Tczn7mdJuZz9zOk3M5+5nSbmdJuZz9zOk3M6TczpNzOk3M5+5
+nSbmdJuZz9zOk3M6TczpNzOk3M6TczpNzOk3M6TczpNzOk3M6TczpNzOk3M5+5nSbmc/czpNzOk3
+M6TczpNzOk3M6TczpNzOk3M5+5nSbmdJuZz9zOfuZ0m5nP3M6TczpNzOfuZz9xz3O6/9D+v8S9Rj
+Imt8SXJmZb7fxJlS3DZyEj1kdiX+JL7xfzlv2l+he5f2E77eQt+ypb/vkiYh1G1vV5p2fM08fzNP
+H8zTx/8A0NKxVs15I3A7D/AVW3ff9hvVD9QK6N7Uao1ZV53EdLfqOdIhjkte52HI51SmJSfnIv8A
+AXJcRCxYt32LFiw3qh+ok/ytUbIrRs+HogtRfqg6bElrHYf+rQn/ACL/AAK5cuXLly5cuX5DVS5U
+spqpbyGhoTQ0JoaE0VCQQ0lO/Gwldietv4t//8QAQREAAAUBBQQHBQUIAgMBAAAAAAECAwQRBRIV
+IVITFjFRBhAUMkBBUyJCUGChICMwM5E0NWFxgbHB8FThBySA0f/aAAgBAgEBPwHwxhSriTUG7WJ7
+NtNR29egdvc9MHaKvTEKamYmqfkmn2X8m1Do4hK2DBx0kNgjzEhCUEYsDur/ABqCgoKCgoKGKfDs
+hl1ZfZyHsjzD9NmodGs2TCiyBZCaXs5iwO4v8UhUVIXiBqLyBHQVIVIheIKz+CVLraKrhCXDufeI
+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
+wJsGOclDtkeLU9pvh3gj3bUyHaaSxkQVyvBbNd2nR7S18CLCOSGVBDr7pDsUaLCY6LY3WagftLcm
+BL8m2atjnUH9liXPwOCt04NngSfCMoTaZ5y7t2uuGYEeAck4PGfgrY0RDGhd6ZkZ9omHG7RZqkgC
+9k+6zPGH8hDP9St8ODXlGxWsaIMYQnGG0SEidU1aCWiG/LwAW1h0yAb5q0+36KyBEdQyICC7YukX
+cIXSLuELpF3CF0k7hC6RdwhdJO4QukXcIXSLuELpJ/CF0k7hC6RdwhdIu4QukXcIXST+ELpJ/CF0
+i7hC6RdwhdJP4QukXcIXSLuELpF3CF0i7hC6SdwhZR1rEf8AdiNuUSNF7puc95mc0LpF3CF0i7hC
+6SfwhdIu4QukncIXSLuELpJ3CFaGN7oHx7Mm6bRgukXcIXSLuELpJ/CF0i7hC6RdwhdJO4QukXcI
+XSLuELpF3CF0i7hC6RdwhdJO4QukXcIXSLuELpJ/CF0i7hC6RdwhdJP4QukncIXSLuELpF3CF0k/
+hC6SfwhdIu4QukXcIXSTuELpF3CFAtLbeXmEZhpAVoIwL/RRW0OltXNN3Lmm7lzTdy5pu5c03cua
+buXNN3Lmm7lzTdy5pu5c03cuabuXNN3Lmm7lzTdy5pu5c03cuabuXNN3Lmm7lzTdy5pu5c03cuab
+uXNN3Lmm7lzTdy5pu5c03cuabuXNN3Lmm7lzTdy5pu5c03cuabuXNN3Lmm7lzTdy5pu5c03cuabu
+XNN3Lmm7lzTdy5pu5c03cuabuXNN3Lmm7lzTdy5pu5c03cuabuXNN3Lmm7lzTdy5pu5c03cuabuX
+NN3LMaG9n/YfisViFiFiFiFiFiFiFiFiFiFiFiFiFiFiFiFiFiFiFiFiFiFiFiFiFiFiFiFiFiFi
+FiFiFiFiFiFiFiFiFiFiFiFiFiFiFiFiFiFiFiFiFiFiFiFiFiFiFiFiFiPRSvEObCh5bIjMqvli
+UIjgGETDtgIxWXEJ5df4sCZ7TvG9Mh5XOfKV23/cKI4tiw4bAw1vZIOqwkri6mU6qLjdOXbevG1Q
+7w3ObhPbvUXNmYbKu39SWBHuWTc6TsUGZN8y6nDDtQpdOZpFyczGIBOlRA8FtEr5YzUr+2m79XhA
+gGmU7xJOdeGCWdLGayk5t7EaptkZXtT2DFombtSGJuqubqUQA83e6aEw4TE72qd+E9G/9XoRQMpU
+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
+EyMiSfH/2Q==
+------=_Part_23036_177075305.1748412446575--
